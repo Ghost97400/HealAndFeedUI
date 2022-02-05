@@ -1,0 +1,18 @@
+name: Heal-And-FeedUI
+api: 4.0.0
+main: ghost\HealAndFeedUI
+version: 1
+author: Ghost
+
+commands:
+  hfui:
+    description: "Open Heal-And-FeedUI"
+    permission: hfui.cmd
+
+permissions:
+  hfui.cmd:
+    default: op
+
+
+depend:
+  - FormAPI
