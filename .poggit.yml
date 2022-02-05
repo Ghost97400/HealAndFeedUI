@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Ghost97400/HealAndFeedUI
+build-by-default: true
+branches:
+- master
+projects:
+  HealAndFeedUI:
+    path: ""
+...
